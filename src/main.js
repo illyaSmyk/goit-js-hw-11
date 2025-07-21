@@ -33,7 +33,7 @@ function onSubmit(e) {
   getImagesByQuery(query)
     .then(images => {
       if (images.length === 0) {
-        iziToast.info({
+        iziToast.error({
           message:
             'Sorry, there are no images matching your search query. Please try again!',
           position: 'topRight',
