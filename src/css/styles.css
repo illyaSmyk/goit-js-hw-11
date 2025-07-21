@@ -97,7 +97,6 @@
   width: 360px;
   height: 200px;
   box-sizing: border-box;
-  padding: 8px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
